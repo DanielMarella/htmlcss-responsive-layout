@@ -11,7 +11,7 @@ body{
 
 
 
-/* GENERAL CLASS */
+/* REUSABLE CLASS */
 
 .flex{
     display: flex;
@@ -38,6 +38,9 @@ ul{
     list-style-type: none;
 }
 
+.margin-40-0{
+    margin: 40px 0;
+}
 
 /* ********************************************** */
 
@@ -86,7 +89,7 @@ main{
 
 .container{
     border: 2px solid blue;
-    margin: 0 50px;
+    margin: 50px 25px;
 }
 
 .box-70-30{
@@ -127,19 +130,41 @@ main{
 
 /* STRATEGIC PLANNING */
 
-.strategic{
-    width: 100%;
 
-    border: 2px solid red;
+.strategic-planning{
+    background-color: #9792e4;
+    padding: 50px 0;
+}
+
+.planning-img{
+    width: 100%;
+}
+
+.developement-img{
+    width: 100%;
+}
+
+.strategic{
+    margin: 50px 50px;
 }
 
 .developement{
-    width: 100%;
-    border: 2px solid red;
-    border-radius: 15px;
-    
+    text-align: center;
+    margin: 0 50px;
+    background-color: white;
+    border-radius: 40px;
 }
 
+.button-dev{
+    background-color: #9792e4;
+    border: none;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    font-size: 1.3rem;
+    margin-bottom: 20px;
+}
 
 
 /* ******************************* */
