@@ -6,6 +6,8 @@
     box-sizing: border-box;
 }
 
+body{
+}
 
 
 
@@ -26,6 +28,11 @@
     align-items: center;
 }
 
+.flex-column{
+    display: flex;
+    flex-direction: column;
+}
+
 
 ul{
     list-style-type: none;
@@ -36,21 +43,23 @@ ul{
 
 /* MOBILE FIRST 480px */
 
+/* HEADER */
+
 #logo{
-    margin-left: 2rem;
+    margin-left: 50px;
 }
 
 header{
     background-color: #0084fd;
+    width: 100%;
 }
 
 .nav-head{
     height: 8vh;
-    width: 100%;
 }
 
 .tent{
-    margin-right: 2rem;
+    margin-right: 50px;
     color: white;
     font-size: 2rem;
 }
@@ -60,19 +69,127 @@ header{
     color: white;
 }
 
+/* **************************** */
+
+/* MAIN */
+
+main{
+    width: 100%;
+}
+
+/* DEMO-APPLICATION */
+
+
+.demo-application{
+
+}
+
+.container{
+    border: 2px solid blue;
+    margin: 0 50px;
+}
+
+.box-70-30{
+    width: 100%;
+}
+
+.big-box{
+    width: 100%;
+    height: 10vh;
+    border: 2px solid black;
+    border-radius: 15px;
+    margin: .5rem 0;
+}
+
+.less-small{
+    width: 100%;
+    height: 10vh;
+    border: 2px solid black;
+    border-radius: 15px;
+    margin: .5rem 0;
+
+}
+
+.box-33{
+    width: 100%;
+}
+.box{
+    width: 100%;
+    height: 10vh;
+    border: 2px solid black;
+    border-radius: 15px;
+    margin: .5rem 0;
+
+}
+
+/* ******************************* */
+
+
+/* STRATEGIC PLANNING */
+
+.strategic{
+    width: 100%;
+
+    border: 2px solid red;
+}
+
+.developement{
+    width: 100%;
+    border: 2px solid red;
+    border-radius: 15px;
+    
+}
+
+
+
+/* ******************************* */
 
 /* TABLET 768px  */
 
+/* BOX */
+@media screen and (min-width: 480px) {
 
+    .container{
+        margin: 0 100px;
+    }
 
+    .box-70-30{
+        display: flex;
+        flex-direction: row;
+    }
 
+    .big-box{
+        width: calc((100% / 3) * 2.05);
+        margin: .5rem .5rem;
+    }
 
-/* DESKTOP DA  IN SU */
+    .less-small{
+        width: calc(100% / 3);
+        margin: .5rem .5rem;
+    }
+
+    .box-33{
+
+        display: flex;
+        width: 100%;
+
+    }
+
+    .box{
+        width: calc(100% / 3);
+        margin: .5rem .5rem;
+    }
+
+}
+
+/* ************************************ */
+
+/* DESKTOP DA 768 IN SU */
 
 @media screen and (min-width: 768px) {
 
-    #logo{
-        margin-left: 200px;
+    .nav-head{
+        margin: 0 100px;
     }
 
     .tent{
@@ -82,7 +199,6 @@ header{
     .link{
         display: flex;
         gap: 2rem;
-        margin-right: 200px;
     }
     
 }
