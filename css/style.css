@@ -36,6 +36,9 @@ ul{
 
 /* MOBILE FIRST 480px */
 
+#logo{
+    margin-left: 2rem;
+}
 
 header{
     background-color: #0084fd;
@@ -46,10 +49,16 @@ header{
     width: 100%;
 }
 
-.link{
-    display: none;
+.tent{
+    margin-right: 2rem;
+    color: white;
+    font-size: 2rem;
 }
 
+.link{
+    display: none;
+    color: white;
+}
 
 
 /* TABLET 768px  */
@@ -57,5 +66,24 @@ header{
 
 
 
-/* DESKTOP DA 769 IN SU */
+
+/* DESKTOP DA  IN SU */
+
+@media screen and (min-width: 768px) {
+
+    #logo{
+        margin-left: 200px;
+    }
+
+    .tent{
+        display: none;
+    }
+
+    .link{
+        display: flex;
+        gap: 2rem;
+        margin-right: 200px;
+    }
+    
+}
 
