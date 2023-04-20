@@ -9,7 +9,11 @@
 
 /* MOBILE FIRST 480px */
 
-
+header{
+    width: 100%;
+    height: 8vh;
+    background-color: #0084fd;
+}
 
 
 
