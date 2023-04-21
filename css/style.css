@@ -119,7 +119,6 @@ main{
 
 /* STRATEGIC PLANNING */
 
-
 .strategic-planning{
     background-color: #9792e4;
 
@@ -143,7 +142,6 @@ main{
 
 .developement{
     text-align: center;
-    height: 65%;
     margin: 0 25px;
     background-color: white;
     border-radius: 40px;
@@ -173,6 +171,7 @@ main{
 /* ******************************* */
 
 /* TESTIMONIALS */
+
 
 .testimonials{
     text-align: center;
@@ -205,8 +204,37 @@ main{
 
 /* ************************ */
 
+/* BENEFITS */
 
+.benefits{
+    background-color: #9792e4;
+}
 
+.benefits>h1{
+    text-align: center;
+}
+
+.benefits-box{
+    width: 100%;
+    height: 100vh;
+
+    border: 5px solid blue;
+}
+
+.ben-card{
+    width: calc(100% / 3);
+    height: calc(100% / 3);
+    border: 2px solid black;
+    margin: 20px auto;
+    padding: 15px 10px;
+
+}
+
+.number{
+    font-size: 3rem;
+}
+
+/* ************************ */
 
 
 /* TABLET 768px  */
@@ -247,9 +275,6 @@ main{
 }
 
 /* ************************************ */
-
-
-
 
 
 /* DESKTOP DA 768 IN SU */
@@ -315,6 +340,7 @@ main{
 /* ************************************* */
 
 /* TESTIMONIALS */
+
 
 @media screen and (min-width: 768px) {
 
