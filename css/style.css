@@ -168,11 +168,46 @@ main{
 .strat-p{
     font-size: 1rem;
     color: white;
-
 }
 
-
 /* ******************************* */
+
+/* TESTIMONIALS */
+
+.testimonials{
+    text-align: center;
+}
+
+.testimonial-box{
+}
+
+.testimonial-card{
+    margin: 25px 25px;
+    height: 200px;
+    border: 2px solid red;
+    border-radius: 15px;
+}
+
+.text{
+    margin: 0 25px;
+    font-size: 1.2rem;
+}
+
+.testim-h3{
+    margin-top: 50px;
+}
+
+.testim-h1{
+    margin: 30px 25px;
+    font-size: 2.5rem;
+    color: #9792e4;
+}
+
+/* ************************ */
+
+
+
+
 
 /* TABLET 768px  */
 
@@ -212,6 +247,10 @@ main{
 }
 
 /* ************************************ */
+
+
+
+
 
 /* DESKTOP DA 768 IN SU */
 
@@ -273,3 +312,27 @@ main{
     }
 }
 
+/* ************************************* */
+
+/* TESTIMONIALS */
+
+@media screen and (min-width: 768px) {
+
+    .testimonial-box{
+        margin: 0 auto;
+        width: 80%;
+    }
+
+    .testimonial-card{
+        margin: 25px 0;
+    }
+
+    .text{
+        margin: 0 auto;
+        margin: 0 auto;
+        width: 80%;
+    }
+}
+
+
+/* ************************************** */
