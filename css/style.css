@@ -4,8 +4,8 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    max-width: 1600px
 }
-
 
 /* REUSABLE CLASS */
 
@@ -33,9 +33,6 @@ ul{
     list-style-type: none;
 }
 
-.margin-40-0{
-    margin: 40px 0;
-}
 
 /* ********************************************** */
 
@@ -71,168 +68,8 @@ header{
 
 /* MAIN */
 
-main{
-    width: 100%;
-}
-
 /* DEMO-APPLICATION */
 
-
-.container{
-    margin: 50px 25px;
-}
-
-.box-70-30{
-    width: 100%;
-}
-
-.big-box{
-    width: 100%;
-    height: 10vh;
-    border: 2px solid black;
-    border-radius: 15px;
-    margin: .5rem 0;
-}
-
-.less-small{
-    width: 100%;
-    height: 10vh;
-    border: 2px solid black;
-    border-radius: 15px;
-    margin: .5rem 0;
-}
-
-.box-33{
-    width: 100%;
-}
-
-.box{
-    width: 100%;
-    height: 10vh;
-    border: 2px solid black;
-    border-radius: 15px;
-    margin: .5rem 0;
-}
-
-/* ******************************* */
-
-
-/* STRATEGIC PLANNING */
-
-.strategic-planning{
-    background-color: #9792e4;
-
-}
-
-.plan{
-    padding: 50px 25px;
-}
-
-.planning-img{
-    width: 100%;
-}
-
-.developement-img{
-    width: 100%;
-}
-
-.strategic{
-    margin: 50px 25px;
-}
-
-.developement{
-    text-align: center;
-    margin: 0 25px;
-    background-color: white;
-    border-radius: 40px;
-}
-
-.button-dev{
-    background-color: #9792e4;
-    border: none;
-    border-radius: 50%;
-    width: 50px;
-    height: 50px;
-    text-align: center;
-    font-size: 1.3rem;
-    margin-bottom: 20px;
-}
-
-.strat-h1{
-    font-size: 2rem;
-    color: white;
-}
-
-.strat-p{
-    font-size: 1rem;
-    color: white;
-}
-
-/* ******************************* */
-
-/* TESTIMONIALS */
-
-
-.testimonials{
-    text-align: center;
-}
-
-.testimonial-box{
-}
-
-.testimonial-card{
-    margin: 25px 25px;
-    height: 200px;
-    border: 2px solid red;
-    border-radius: 15px;
-}
-
-.text{
-    margin: 0 25px;
-    font-size: 1.2rem;
-}
-
-.testim-h3{
-    margin-top: 50px;
-}
-
-.testim-h1{
-    margin: 30px 25px;
-    font-size: 2.5rem;
-    color: #9792e4;
-}
-
-/* ************************ */
-
-/* BENEFITS */
-
-.benefits{
-    background-color: #9792e4;
-}
-
-.benefits>h1{
-    text-align: center;
-}
-
-.benefits-box{
-    width: 100%;
-    height: 100vh;
-
-    border: 5px solid blue;
-}
-
-.ben-card{
-    width: calc(100% / 3);
-    height: calc(100% / 3);
-    border: 2px solid black;
-    margin: 20px auto;
-    padding: 15px 10px;
-
-}
-
-.number{
-    font-size: 3rem;
-}
 
 /* ************************ */
 
@@ -240,39 +77,6 @@ main{
 /* TABLET 768px  */
 
 /* BOX */
-@media screen and (min-width: 480px) {
-
-    .container{
-        margin: 0 auto;
-        width: 80%;
-
-    }
-
-    .box-70-30{
-        display: flex;
-        flex-direction: row;
-    }
-
-    .big-box{
-        width: calc((100% / 3) * 2.05);
-        margin: .5rem .5rem;
-    }
-
-    .less-small{
-        width: calc(100% / 3);
-        margin: .5rem .5rem;
-    }
-
-    .box-33{
-
-        display: flex;
-    }
-
-    .box{
-        width: calc(100% / 3);
-        margin: .5rem .5rem;
-    }
-}
 
 /* ************************************ */
 
@@ -306,59 +110,13 @@ main{
 
 /* STRATEGIC */
 
-@media screen and (min-width: 768px) {
 
-    .plan{
-        display: flex;
-        margin: 0 auto;
-        justify-content: center;
-    }
-
-    .developement{
-        width: 20%;
-        margin-top: 10%;
-    }
-
-    .strategic{
-        width: 20%;
-    }
-    
-    .developement-img{
-        width: 70%;
-    }
-
-    .dev-h1,
-    .dev-p{
-        margin: 25px 0;
-    }
-
-    .strat-h1{
-        margin-top: 70px;
-    }
-}
 
 /* ************************************* */
 
 /* TESTIMONIALS */
 
 
-@media screen and (min-width: 768px) {
-
-    .testimonial-box{
-        margin: 0 auto;
-        width: 80%;
-    }
-
-    .testimonial-card{
-        margin: 25px 0;
-    }
-
-    .text{
-        margin: 0 auto;
-        margin: 0 auto;
-        width: 80%;
-    }
-}
 
 
 /* ************************************** */
