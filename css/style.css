@@ -93,7 +93,8 @@ header{
 
 /* DEMO-APPLICATION */
 
-.row{
+.row,
+.tris{
     margin: 10px 50px;
 }
 
@@ -140,17 +141,106 @@ header{
     text-align: center;
 }
 
+.demo-text{
+    width: 100%;
+}
 
+/* ************************ */
+
+/* STRATEGIC PLANNING */
+
+.strategic-planning{
+    background-color: #9792e4;
+}
+
+
+.strategic-container{
+    margin: 0 50px
+    
+}
+
+.planning{
+    width: 100%;
+    text-align: center;
+}
+
+.planning-img{
+    width: 80%;
+    margin: 20px auto;
+
+}
+
+.developement{
+    width: 100%;
+    background-color: white;
+    border-radius: 20px;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.app-img{
+    width: 100%;
+}
+
+.app-button{
+    margin: 20px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    font-size: 1.5rem;
+}
+
+.
 
 
 
 
 /* ************************ */
 
-
 /* TABLET 768px  */
 
 /* DEMO */
+
+@media screen and (min-width: 480px) {
+    
+    .demo-70-30{
+        display: flex;
+        gap: 20px;
+    }
+
+    .box-70{
+        width: calc((100% / 3) * 2);
+    }
+    
+    .box-30{
+        width: calc(100% / 3);
+        margin: 25px 0;
+    }
+
+    .box-30 p{
+        padding: 0 25px;
+    }
+
+    .demo-img{
+        width: 70%;
+    }
+
+    .row{
+        display: flex;
+        gap: 20px;
+    }
+
+    .tris{
+        display: flex;
+        gap: 20px;
+
+    }
+
+    .demo-icon{
+        padding-top: 25px;
+    }
+
+}
 
 /* ************************************ */
 
@@ -180,12 +270,48 @@ header{
     }
 }   
 
+/* DEMO */
+
+@media screen and (min-width: 768px) {
+
+    .demo-img{
+        width: 25%;
+        position: absolute;
+        bottom: 0;
+    }
+    
+
+    .box-70{
+        display: flex;
+        position: relative;
+    }
+
+    .demo-text{
+        width: 50%;
+    }
+}   
+
+
 /* ********************************** */
 
 /* STRATEGIC */
 
+@media screen and (min-width: 768px) {
+    
+    .strategic-container{
+        display: flex;
+    }
 
 
+    .planning{
+        width: 50%;
+        margin: 100px;
+    }
+
+    .developement{
+        width: 50%;
+    }
+}
 /* ************************************* */
 
 /* TESTIMONIALS */
