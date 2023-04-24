@@ -57,6 +57,18 @@ ul {
     text-align: left;
 }
 
+.size4{
+    font-size: 4rem;
+}
+
+
+.lilla{
+    color:  #9792e4;;
+}
+
+.white{
+    color: white;
+}
 
 /* ********************************************** */
 
@@ -239,6 +251,47 @@ header {
 }
 
 /* ************************ */
+
+/* BENEFITS */
+
+.benefits{
+    background-color:#9792e4;
+    padding-top: 20px;
+}
+
+.benefits-container{
+    width: 100%;
+    padding-bottom: 10px;
+}
+
+.card{
+    background-color: white;
+    width: 60%;
+    height: 70%;
+    margin: 20px auto;
+    padding: 20px 0 20px 20px;
+    border-radius: 20px;
+}
+
+.card-button{
+    color: white;
+    background-color: #9792e4;
+    border-style: none;
+    padding: 5px 30px;
+    border-radius: 20px;
+    font-size: 1rem;
+}
+
+
+
+.card p{
+    margin: 20px 0
+}
+
+
+/* ***************** */
+
+
 
 /* TABLET da 480px a 768px  */
 
