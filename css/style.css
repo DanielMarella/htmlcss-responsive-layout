@@ -1,6 +1,6 @@
 /* RESET */
 
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -9,50 +9,51 @@
 
 /* REUSABLE CLASS */
 
-.flex{
+.flex {
     display: flex;
 }
 
-.flex-between{
+.flex-between {
     display: flex;
     justify-content: space-between;
 }
 
-.center{
+.center {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.flex-column{
+.flex-column {
     display: flex;
     flex-direction: column;
 }
 
-ul{
+ul {
     list-style-type: none;
 }
 
-.m-0-auto{
+.m-0-auto {
     margin: 0 auto;
 }
 
-.m-30{
+.m-30 {
     margin: 30px 0;
 }
 
-.m-25{
+.m-25 {
     margin: 25px 0;
 }
 
-.pad-25-20{
+.pad-25-20 {
     padding: 25px 0 0 20px;
 }
-.text-center{
+
+.text-center {
     text-align: center;
 }
 
-.text-left{
+.text-left {
     text-align: left;
 }
 
@@ -63,26 +64,26 @@ ul{
 
 /* HEADER */
 
-#logo{
+#logo {
     margin-left: 50px;
 }
 
-header{
+header {
     background-color: #0084fd;
     width: 100%;
 }
 
-.nav-head{
+.nav-head {
     height: 8vh;
 }
 
-.tent{
+.tent {
     margin-right: 50px;
     color: white;
     font-size: 2rem;
 }
 
-.link{
+.link {
     display: none;
     color: white;
 }
@@ -94,18 +95,18 @@ header{
 /* DEMO-APPLICATION */
 
 .row,
-.tris{
+.tris {
     margin: 10px 50px;
 }
 
-.box-70{
+.box-70 {
     background-color: #b5ddff;
     width: 100%;
     border-radius: 20px;
     margin: 25px 0;
 }
 
-.box-30{
+.box-30 {
     text-align: center;
     width: 100%;
     background-color: #b5ddff;
@@ -113,35 +114,35 @@ header{
     border-radius: 20px;
 }
 
-.demo-h2{
+.demo-h2 {
     margin: 20px 0;
     color: #0084fd;
 }
 
-.demo-p{
+.demo-p {
     margin: 30px 0;
     padding-left: 20px;
 }
 
-.demo-button{
+.demo-button {
     margin: 0 0 15px 20px;
     background-color: #0084fd;
     border-radius: 15px;
     padding: 8px 40px;
 }
 
-.demo-img{
+.demo-img {
     width: 100%;
 }
 
-.demo-icon{
+.demo-icon {
     margin-top: 20px;
     font-size: 80px;
     color: #0084fd;
     text-align: center;
 }
 
-.demo-text{
+.demo-text {
     width: 100%;
 }
 
@@ -149,40 +150,40 @@ header{
 
 /* STRATEGIC PLANNING */
 
-.strategic-planning{
+.strategic-planning {
     background-color: #9792e4;
 }
 
 
-.strategic-container{
+.strategic-container {
     margin: 0 50px
-    
 }
 
-.planning{
+.planning {
     width: 100%;
     text-align: center;
 }
 
-.planning-img{
+.planning-img {
     width: 80%;
     margin: 20px auto;
 
 }
 
-.developement{
+.developement {
     width: 100%;
+    height: 100%;
     background-color: white;
     border-radius: 20px;
     text-align: center;
     margin-top: 30px;
 }
 
-.app-img{
+.app-img {
     width: 100%;
 }
 
-.app-button{
+.app-button {
     margin: 20px;
     width: 50px;
     height: 50px;
@@ -190,58 +191,48 @@ header{
     font-size: 1.5rem;
 }
 
-.
-
-
-
 
 /* ************************ */
 
-/* TABLET 768px  */
+/* TABLET da 480px a 768px  */
 
 /* DEMO */
 
 @media screen and (min-width: 480px) {
     
-    .demo-70-30{
-        display: flex;
-        gap: 20px;
-    }
 
-    .box-70{
+    .box-70 { 
         width: calc((100% / 3) * 2);
     }
     
-    .box-30{
+    .box-30 {
         width: calc(100% / 3);
         margin: 25px 0;
     }
 
-    .box-30 p{
+    .box-30 p {
         padding: 0 25px;
     }
 
-    .demo-img{
+    .demo-img {
         width: 70%;
     }
 
-    .row{
+    .row {
         display: flex;
         gap: 20px;
     }
 
-    .tris{
+    .tris {
         display: flex;
         gap: 20px;
-
     }
 
-    .demo-icon{
+    .demo-icon {
         padding-top: 25px;
     }
 
 }
-
 /* ************************************ */
 
 
@@ -251,45 +242,46 @@ header{
 
 @media screen and (min-width: 768px) {
 
-    .nav-head{
+    .nav-head {
         margin: 0 auto;
         width: 80%;
     }
 
-    .tent{
+    .tent {
         display: none;
     }
 
-    .link{
+    .link {
         display: flex;
         gap: 2rem;
     }
 
-    #logo{
+    #logo {
         margin: 0;
     }
-}   
+}
 
 /* DEMO */
 
 @media screen and (min-width: 768px) {
 
-    .demo-img{
+    .demo-img {
         width: 25%;
         position: absolute;
         bottom: 0;
+        right: 150px;
     }
-    
 
-    .box-70{
+
+    .box-70 {
         display: flex;
         position: relative;
     }
 
-    .demo-text{
+    .demo-text {
         width: 50%;
     }
-}   
+}
 
 
 /* ********************************** */
@@ -297,21 +289,30 @@ header{
 /* STRATEGIC */
 
 @media screen and (min-width: 768px) {
-    
-    .strategic-container{
+
+    .strategic-container {
         display: flex;
     }
 
-
-    .planning{
-        width: 50%;
-        margin: 100px;
+    .planning {
+        width: 30%;
+        margin: 20px 20px 0 auto;
     }
 
-    .developement{
+    .developement {
+        width: 20%;
+        margin: 150px auto 0 20px;
+    }
+
+    .planning-img{
+        width: 80%;
+    }
+
+    .app-img{
         width: 50%;
     }
 }
+
 /* ************************************* */
 
 /* TESTIMONIALS */
