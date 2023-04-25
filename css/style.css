@@ -282,14 +282,59 @@ header {
     font-size: 1rem;
 }
 
-
-
 .card p{
     margin: 20px 0
 }
 
-
 /* ***************** */
+
+/* ABOUT-US */
+
+.about-us{
+    margin: 0 auto
+}
+
+.about-container{
+    width: 80%;
+    margin: 0 auto;
+    padding-bottom: 30px;
+}
+
+.about-h1{
+    margin: 20px 0;
+    font-size: 3rem;
+}
+
+.about-text{
+    margin: 20px 0;
+    width: 80%;
+    font-size: 1.3rem;
+    line-height: 2rem;
+}
+
+.about-imagetext{
+    color: #9792e4;
+    width: 80%;
+}
+
+.about-img{
+    width: 100%;
+}
+
+.help-img{
+    width: 80%;
+    border-radius: 100%;
+    margin: 10px 0;
+}
+
+.about-button{
+    background-color: #9792e4;
+    border-style: none;
+    border-radius: 20px;
+    padding: 5px 20px;
+    margin: 10px 0;
+}
+/* ******************** */
 
 
 
@@ -367,6 +412,28 @@ header {
         width: calc(90% / 2);
         margin: 10px auto;
     }
+}
+
+/* *********************************** */
+
+/* ABOUT */
+
+@media screen and (min-width: 480px) {
+
+    .about-container{
+        display: flex;
+    }
+
+    .about-text{
+        margin: 50px 0;
+    }
+
+    .about-imagetext{
+        width: 50%;
+        margin: 50px 20px;
+    }
+
+    
 }
 
 /* DESKTOP DA 768 IN SU */
