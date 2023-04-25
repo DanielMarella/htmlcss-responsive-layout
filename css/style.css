@@ -336,6 +336,32 @@ header {
 }
 /* ******************** */
 
+/* GET STARTED */
+
+.get-started{
+    background-color: #9792e4;
+}
+
+.get-started-container{
+    margin: 0 auto;
+    width: 50%;
+    text-align: center;
+    color: white;
+    padding: 50px 0;
+}
+
+.get-started-container h2{
+    font-size: 1.7rem;
+    margin: 20px 0;
+}
+
+
+.get-started-container h1{
+    font-size: 4rem;
+    margin: 20px 0;
+    color: #fdc15f;
+}
+
 
 
 /* TABLET da 480px a 768px  */
